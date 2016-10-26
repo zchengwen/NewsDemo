@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
           ButterKnife.bind(this);
 
+        
     }
     @OnClick({R.id.button1,R.id.button2})
     public void ass(View view){
